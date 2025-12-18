@@ -48,7 +48,7 @@ import ClerkReports from './pages/clerk/Reports';
 function App() {
   return (
     <AuthProvider>
-      <Router>
+      <Router basename="/Swami-Vivekanand-School">
         <Routes>
           {/* Public Routes */}
           <Route path="/login" element={<Login />} />
